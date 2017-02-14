@@ -7,6 +7,6 @@ import static org.testng.Assert.*;
 public class AppTest {
     @Test public void appHasAGreeting() {
         HelloWorld classUnderTest = new HelloWorld();
-        assertEquals(classUnderTest.getGreeting(),"Hello World","app should have a greeting");
+        assertEquals(classUnderTest.getGreeting(),"Hello world","app should have a greeting");
     } 
 }
